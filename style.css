@@ -1,0 +1,73 @@
+
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: rgb(145, 186, 187)
+}
+
+
+
+header{
+float: left;
+font-family: 'Ubuntu Mono', monospace;
+}
+
+.selfie {
+    margin-left: 300px;
+ 
+ }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(17, 14, 209);
+    color: white;
+    text-align: center;
+ }
+
+.skillsList {
+    width: 500px;
+    margin-left: 20px;
+    padding: 10px, 10px;
+}
+
+.gitHubRepoList {
+    width: 500px;
+}
+
+ 
+
+/* form {
+    width: 350px;
+} */
+
+
+
+/*Styling for the website*/
+/* body{
+    background-color: #262326;
+    /* background-image: url("images/manypugs.jpg"); */
+    /* background-size: contain;
+} */
+
+/* button {
+    margin-left: 47%;
+}
+.entry {
+    background-image: url("images/kittens-cat-cat-puppy-rush-45170.jpeg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+header {
+    background-color: transparent;
+    color: #262326;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia;
+    font-weight:900;
+    text-shadow: 2px 2px #c2736b;
+} */
