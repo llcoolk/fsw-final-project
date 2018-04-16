@@ -10,6 +10,9 @@ header {
     font-family: 'Ubuntu Mono', monospace;
 }
 
+.fa-github:hover{
+    font-size: 50px;
+}
 .footer {
     padding-top: 5px;
     position: fixed;
@@ -30,11 +33,14 @@ header {
 }
 
 #social a {
-    margin-right: 10px;
+    margin-right: 20px;
     color: #333;
 }
+
 
 #social a:hover {
     color: gray;
     text-decoration: none;
+    
 }
+

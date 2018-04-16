@@ -24,7 +24,13 @@
             <!-- github glyphicon -->
             <div class="col-md-offset-4 col-md-4">
                 <div id="social">
+                        <!-- <button type="button" id="myBtn" onclick="myFunction()">Change the height of social media icons</button>
 
+                        <script>
+                            function myFunction() {
+                                document.getElementById("social").style.height = "50px";
+                            }
+                        </script> -->
                     <a href="https://github.com/llcoolk">
                         <i class="fa fa-github fa-3x"></i>
                     </a>
@@ -40,11 +46,11 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="row">
             <!-- my profile picture -->
             <div class="col-md-offset-4 col-md-4">
-                <img src="/Users/leenkim/Workspace/FSW/Final Project/myprofilepic.png" class="img-thumbnail">
+                <img src="/Users/leenkim/Workspace/FSW/FinalProject/myprofilepic.png" class="img-thumbnail">
             </div>
         </div>
 
@@ -55,9 +61,9 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">html, css</li>
                     <li class="list-group-item">javascript</li>
-                    <li class="list-group-item">SQL</li>
+                    <li class="list-group-item">QMF</li>
                     <li class="list-group-item">Relational Database</li>
-                    <li class="list-group-item">AS400, QMF</li>
+                    <li class="list-group-item">AS400</li>
                     <li class="list-group-item">Business Analysis</li>
                     <li class="list-group-item">Data Analysis</li>
                     <li class="list-group-item">Software Development Life Cycle</li>
@@ -68,9 +74,10 @@
                 <div class="gitHubRepoList">
                     <h3>GitHub Repo List</h3>
                     <div class="list-group">
-                            <ul id="repositories">
-                                </ul>
-                                <button onclick="loadRepo()">Push for Repos</button>
+                            <button onclick="loadRepo()">Push for Repos</button>
+                            <ul id="repositories">                               
+                            </ul>
+                            
                         <!-- <div class="list-group">
                             <a href="#" class="list-group-item list-group-item-action active">Name of the repo</a>
                             <a href="#" class="list-group-item list-group-item-action">Original</a>
@@ -78,6 +85,15 @@
                             <a href="#" class="list-group-item list-group-item-action">Front End Final Project</a>
                             <a href="#" class="list-group-item list-group-item-action">jQuery Sample</a>
                         </div> -->
+
+                        <!-- <div class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Push ftHub repo lor My Giist </div>
+
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <a href="https://github.com/llcoolk/dashboard" class="Hyperlink">"https://github.com/llcoolk/fsw-final-project"</a>
+                            </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,7 +104,9 @@
     <!-- sticky footer -->
     <div class="footer">
         <p>
-            Contact information: <a href="mailto:leenkim@alumni.usc.edu"><i class="fa fa-envelope"></i> leenkim@alumni.usc.edu</a>
+            Contact information:
+            <a href="mailto:leenkim@alumni.usc.edu">
+                <i class="fa fa-envelope"></i> leenkim@alumni.usc.edu</a>
         </p>
     </div>
     <script src="script.js"></script>
