@@ -12,8 +12,8 @@
 
 <body>
     <div class="container">
-        <div class="row">
 
+        <div class="row">
             <div class="col-md-4">
                 <header>
                     <h1 class="myName">Leen Kim</h1>
@@ -68,15 +68,16 @@
                 <div class="gitHubRepoList">
                     <h3>GitHub Repo List</h3>
                     <div class="list-group">
-                        <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action active">
-                                Hello World
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">Original</button>
-                            <button type="button" class="list-group-item list-group-item-action">CFS Final Project</button>
-                            <button type="button" class="list-group-item list-group-item-action">Front End Final Project</button>
-                            <button type="button" class="list-group-item list-group-item-action">jQuery Sample</button>
-                        </div>
+                            <ul id="repositories">
+                                </ul>
+                                <button onclick="loadRepo()">Push for Repos</button>
+                        <!-- <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action active">Name of the repo</a>
+                            <a href="#" class="list-group-item list-group-item-action">Original</a>
+                            <a href="#" class="list-group-item list-group-item-action">CFS Final Project</a>
+                            <a href="#" class="list-group-item list-group-item-action">Front End Final Project</a>
+                            <a href="#" class="list-group-item list-group-item-action">jQuery Sample</a>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -90,7 +91,7 @@
             Contact information: <a href="mailto:leenkim@alumni.usc.edu"><i class="fa fa-envelope"></i> leenkim@alumni.usc.edu</a>
         </p>
     </div>
-
+    <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
